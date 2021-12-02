@@ -1,0 +1,24 @@
+{
+    "name": "Moulinette Dark Mode",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "64": "icon.png",
+        "128": "icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "*://my.epitech.eu/*",
+        "*://api.epitest.eu/*"
+    ],
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "Moulinette Dark"
+    },
+    "version": "1.0"
+}
