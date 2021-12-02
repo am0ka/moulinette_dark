@@ -11,8 +11,8 @@
     "128": "icon.png"
   },
   "permissions": [
-    "activeTab",
     "tabs",
+    "webNavigation",
     "*://my.epitech.eu/*",
     "*://api.epitest.eu/*"
   ],
@@ -20,11 +20,5 @@
   "browser_action": {
     "default_title": "Moulinette Dark"
   },
-  "content_scripts": [
-    {
-      "js": ["script.js"],
-      "matches": ["*://my.epitech.eu/*"]
-    }
-  ],
   "version": "1.0"
 }
