@@ -1,10 +1,13 @@
-.mdl-color-text--black {
+.mdl-typography--title-color-contrast.mdl-typography--text-center.mdl-color-text--black {
   color: #fff !important;
 }
-.mdl-color--primary-dark {
+.mdl-color--primary-dark.mdl-layout__tab-bar-button,
+.mdl-color--primary-dark.mdl-layout__tab-bar,
+.mdl-color--primary-dark.mdl-layout__tab-bar-button {
   background-color: rgb(45, 45, 45) !important;
 }
-.mdl-color-text--primary-dark {
+.mdl-typography--text-left.mdl-cell--2-col-phone.mdl-cell--4-col-tablet.mdl-cell--6-col-desktop,
+.mdl-typography--text-right.mdl-cell--2-col-phone.mdl-cell--4-col-tablet.mdl-cell--6-col-desktop {
   color: rgb(255, 255, 255) !important;
 }
 .mdl-button--raised.mdl-button--colored {
@@ -34,6 +37,9 @@
 }
 .mdl-tabs__tab {
   color: rgba(255, 255, 255, 0.6) !important;
+}
+.mdl-tabs__tab-bar {
+  border-bottom: none !important;
 }
 .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
   color: rgba(255, 255, 255, 1) !important;
