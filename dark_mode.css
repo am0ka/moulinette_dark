@@ -23,10 +23,14 @@
 .mdl-button--raised.mdl-button--colored:focus:not(:active) {
   background-color: rgb(60, 153, 220) !important;
 }
-.mdl-card {
+.mdl-card,
+.mdl-cell--4-col-phone.mdl-cell--8-col-tablet.mdl-cell--12-col-desktop.project-cell.mdl-shadow--2dp.mdl-cell
+{
   background: rgb(40, 40, 40) !important;
 }
-.mdl-list__item {
+.mdl-list__item,
+.mdl-typography--text-right,
+.mdl-typography--text-left {
   color: rgba(255, 255, 255, 0.87) !important;
 }
 .mdl-layout__header {
@@ -41,9 +45,29 @@
 .mdl-tabs__tab-bar {
   border-bottom: none !important;
 }
-.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active,
+.mdl-typography--title-color-contrast.mdl-color-text--black,
+.mdl-layout.is-upgraded.has-tabs.mdl-js-layout.mdl-layout--fixed-header,
+.mdl-js-ripple-effect.mdl-js-button.mdl-button.mdl-button--colored.mdl-button--icon {
   color: rgba(255, 255, 255, 1) !important;
 }
 .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
   background: rgba(255, 255, 255, 0.84) !important;
+}
+.mdl-color-text--primary.mdl-typography--title-color-contrast.mdl-typography--text-center.mdl-cell--4-col-phone.mdl-cell--8-col-tablet.mdl-cell--12-col-desktop.mdl-cell {
+  color: rgb(39, 154, 237) !important;
+}
+.mdl-color-text--red-500.mdl-typography--title-color-contrast.mdl-typography--text-center.mdl-cell--4-col-phone.mdl-cell--8-col-tablet.mdl-cell--12-col-desktop.mdl-cell {
+  color: rgb(255, 0, 0);
+}
+svg[mask="url(#pieMaskNormal)"] > path {
+  fill: rgba(0, 0, 0, 0.4);
+}
+
+text[fill] {
+  fill: rgba(255, 255, 255, 0.87);
+}
+
+*::selection {
+  background: blue !important;
 }
