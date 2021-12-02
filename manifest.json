@@ -1,5 +1,6 @@
 {
   "name": "Moulinette Dark Mode",
+  "description": "Better version of dark mode for Epitech moulinette (https://my.epitech.eu)",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
