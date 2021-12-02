@@ -48,12 +48,17 @@ function toggleSVG(stateToggle) {
 }
 
 chrome.browserAction.onClicked.addListener(function (tab) {
+  const style = document.createElement('link');
+    style.id = ""
+    style.rel = 'stylesheet';
+    style.type = 'text/css';
+    style.href = chrome.extension.getURL('dark_mode.css');
   toggleSVG(state);
   if (!state) {
-    chrome.tabs.insertCSS(null, { file: "dark_mode.css" });
+    document.head.appendChild(style);
     state = !state;
   } else {
-    chrome.tabs.removeCSS(null, { file: "dark_mode.css" });
+    document.head.removeChild(style);
     state = !state;
   }
 })
