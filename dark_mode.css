@@ -2350,17 +2350,17 @@ input.mdl-button[type="submit"] {
   background-color: rgba(158, 158, 158, 0.4);
 }
 .mdl-button--raised.mdl-button--colored {
-  background: rgb(60, 153, 220);
-  color: rgb(0, 0, 0);
+  background: rgb(60, 153, 220) !important;
+  color: rgb(0, 0, 0) !important;
 }
 .mdl-button--raised.mdl-button--colored:hover {
-  background-color: rgb(60, 153, 220);
+  background-color: rgb(60, 153, 220) !important;
 }
 .mdl-button--raised.mdl-button--colored:active {
-  background-color: rgb(60, 153, 220);
+  background-color: rgb(60, 153, 220) !important;
 }
 .mdl-button--raised.mdl-button--colored:focus:not(:active) {
-  background-color: rgb(60, 153, 220);
+  background-color: rgb(60, 153, 220) !important;
 }
 .mdl-button--raised.mdl-button--colored .mdl-ripple {
   background: rgb(255, 255, 255);
@@ -2531,7 +2531,7 @@ input.mdl-button[type="submit"] {
   width: 330px;
   z-index: 1;
   position: relative;
-  background: rgb(40, 40, 40);
+  background: rgb(40, 40, 40) !important;
   border-radius: 2px;
   box-sizing: border-box;
 }
@@ -3399,7 +3399,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
   flex-wrap: nowrap;
   padding: 16px;
   cursor: default;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(255, 255, 255, 0.87) !important;
   overflow: hidden;
 }
 .mdl-list__item,
@@ -4078,7 +4078,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
   min-height: 64px;
   max-height: 1000px;
   z-index: 3;
-  background-color: rgb(18, 18, 18);
+  background-color: rgb(18, 18, 18) !important;
   color: rgb(255, 255, 255);
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
     0 1px 5px 0 rgba(0, 0, 0, 0.12);
@@ -4285,7 +4285,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
   flex-grow: 1;
   z-index: 1;
   -webkit-overflow-scrolling: touch;
-  background-color: rgb(47, 47, 47);
+  background-color: rgb(47, 47, 47) !important;
 }
 .mdl-layout--fixed-drawer > .mdl-layout__content {
   margin-left: 240px;
@@ -5615,11 +5615,11 @@ fieldset[disabled] .mdl-switch .mdl-switch__ripple-container .mdl-ripple,
   font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, .6);
+  color: rgba(255, 255, 255, 0.6) !important;
   overflow: hidden;
 }
 .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1) !important;
 }
 .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
   height: 2px;
@@ -5629,7 +5629,7 @@ fieldset[disabled] .mdl-switch .mdl-switch__ripple-container .mdl-ripple,
   bottom: 0;
   left: 0;
   position: absolute;
-  background: rgba(255, 255, 255, .84);
+  background: rgba(255, 255, 255, 0.84) !important;
   -webkit-animation: border-expand 0.2s cubic-bezier(0.4, 0, 0.4, 1) 0.01s
     alternate forwards;
   animation: border-expand 0.2s cubic-bezier(0.4, 0, 0.4, 1) 0.01s alternate
