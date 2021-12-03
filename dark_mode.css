@@ -74,5 +74,5 @@ text[fill] {
 }
 
 *::selection {
-  background: blue !important;
+  background: #96d0ff !important;
 }
