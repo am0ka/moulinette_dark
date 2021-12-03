@@ -14,7 +14,8 @@
   },
   "permissions": [
     "tabs",
-    "webNavigation"
+    "webNavigation",
+    "*://my.epitech.eu/*"
   ],
   "manifest_version": 2,
   "browser_action": {
