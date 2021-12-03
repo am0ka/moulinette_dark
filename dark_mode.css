@@ -47,7 +47,15 @@ div.app-wrapper,
 .mdl-tabs__tab-bar {
   border-bottom: none !important;
 }
-.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active,
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
+  box-shadow: 0 2px 2px 0 rgb(255 255 255 / 14%), 0 3px 1px -2px rgb(255 255 255 / 20%), 0 1px 5px 0 rgb(255 255 255 / 12%);
+}
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
+  animation: none !important;
+  transition: none !important;
+
+  color: rgba(255, 255, 255, 1) !important;
+}
 .mdl-typography--title-color-contrast.mdl-color-text--black,
 .mdl-layout.is-upgraded.has-tabs.mdl-js-layout.mdl-layout--fixed-header,
 .mdl-js-ripple-effect.mdl-js-button.mdl-button.mdl-button--colored.mdl-button--icon {
@@ -75,4 +83,6 @@ text[fill] {
 
 *::selection {
   background: #96d0ff !important;
+  color: black !important;
+  fill: black !important;
 }
